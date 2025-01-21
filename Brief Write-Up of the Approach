@@ -1,0 +1,11 @@
+### Brief Write-Up of the Approach
+
+The project was developed to address the challenge of identifying and displaying products similar to uploaded images. The primary focus was implementing a user-friendly interface and leveraging algorithms to compute image similarity. 
+
+The application uses React for building reusable and scalable UI components. TypeScript ensures strong typing, enhancing code quality and reducing runtime errors. The `ImageUploader` component handles image uploads and passes them to the backend (or utility functions) for processing. The `ProductGrid` component displays the dataset of products, ranked by their similarity to the uploaded image.
+
+The `imageSimilarity.ts` utility function is a core feature, employing a pre-defined algorithm to compare uploaded images against product data. TailwindCSS was used for styling, ensuring a responsive and modern design.
+
+The project was deployed using 'Vercel' to provide a live, accessible demo. Key challenges included implementing an efficient image similarity algorithm and handling large datasets, which were resolved through optimized algorithms and modular design.
+
+This application is a robust foundation for expanding functionalities like advanced filtering, real-time database integration, or machine learning-based similarity algorithms.
